@@ -193,7 +193,7 @@ class MyWeatherComponent extends React.Component {
                   </LinearGradient>
                 </>
               )}
-              listKey={item => (item.indexKey)}
+              keyExtractor={item => (item.indexKey)}
             />
           </View> 
         </View>  
