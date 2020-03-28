@@ -1,0 +1,31 @@
+React Native - WeatherApp2
+
+
+CREATE:
+
+cd C:\Dev\JavaScript\ReactNative
+
+npx react-native init WeatherApp2
+
+
+my npm dependencies:
+	npm install react-native-responsive-dimensions
+	npm install react-native-linear-gradient
+
+Prevent keyboard from moving view:
+
+	Add:  'android:windowSoftInputMode="adjustNothing">'
+
+	To: C:\Dev\JavaScript\ReactNative\WeatherApp2\android\app\src\main\AndroidManifest.xml
+
+
+RUN:
+
+cd C:\Dev\JavaScript\ReactNative\WeatherApp2
+
+npx react-native run-android
+
+
+
+	
+	
